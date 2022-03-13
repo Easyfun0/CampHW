@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMOS</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            width: 1200px;
+            margin: auto;
+        }
+        .title{
+            text-align: center;
+
+        }
+        .title::after{
+            content: '';
+            display: block;
+            width: 2em;
+            height: 2px;
+            margin: auto;
+            background-color: #fa0;
+            margin-top: 10px;
+        }
+        /* .title::before{
+            content: '安安後';
+            color: #ff0;
+        } */
+        .item-group{
+            display: flex;
+        }
+        .item{
+            width: 380px;
+            margin: 10px;
+            /* border: 1px solid red; */
+        }
+        .item img{
+            width: 100%;
+        }
+        .footer{
+            text-align: center;
+        }
+        .footer a{
+            display: inline-block;
+            padding: 10px 30px;
+            background-color: #f00;
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <section class="article">
+        <div class="container">
+            <div class="title">
+                <h2>精選文章</h2>
+            </div>
+            <div class="item-group">
+                <div class="item">
+                    <a href="#">
+                    <img src="https://picsum.photos/300/200/?random=10">
+                        <h3>title</h3>
+                    </a>
+                    <p>eeeeee</p>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <img src="https://picsum.photos/300/200/?random=10">
+                    <h3>title</h3>
+                    </a>
+                    <p>eeeeee</p>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <img src="https://picsum.photos/300/200/?random=10">
+                    <h3>title</h3>
+                    </a>
+                    <p>eeeeee</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <a href="#" class="more">更多文章</a>
+        </div>
+    </section>
+</body>
+</html>
