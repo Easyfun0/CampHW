@@ -159,7 +159,6 @@
     margin-bottom: 50px;
 }
 .intro_box{
-    /* width: 900px; */
     padding: 0 100px;
     display: flex;
     align-items: center;
@@ -332,6 +331,17 @@
     background-image: url('https://picsum.photos/300/300/?random=10');
     background-size: cover;
     display: flex;
+}
+.container{
+    position: relative;
+}
+.col-bottom::before{
+    content: '';
+    position: absolute;
+    width: 87%;
+    height: 1px;
+    background: #748094;
+    top: 8%;
 }
 .footer h3{
     position: relative;
