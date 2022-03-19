@@ -80,6 +80,7 @@ p{
     width: 70%;
     z-index: 2;
     padding: 5px 20px;
+    margin-bottom: 100px;
 }
 .content h4{
     color: #BB0504;
@@ -187,6 +188,7 @@ p{
 }
 .sec2 .content{
     margin-left: 250px;
+    margin-top: -260px;
 }
 
 /* section 3 */
@@ -261,8 +263,11 @@ p{
     background: #BB0504;
     width: 70%;
     height: 1px;
-    top: 18%;
+    top: 13%;
     left: 26%;
+}
+.sec3 .content{
+    margin-top: -210px;
 }
 
 /* section 4 */
@@ -343,4 +348,84 @@ p{
 }
 .sec4 .content{
     margin-left: 250px;
+    margin-top: -180px;
+}
+
+/* section 5 */
+
+.main5{
+    position: relative;
+}
+.main5 .head{
+    position: absolute;
+    width: 350px;
+    left: 0;
+    bottom: 49%;
+    z-index: 3;
+}
+.main5 .top{
+    position: relative;
+    background-color: #BB0504;
+    color: #fff;
+    font-size: 52px;
+}
+.main5 .top span{
+    font-size: 100px;
+}
+.main5 .head .bottom{
+    color: #fff;
+    background-color: #000;
+    padding: 10px 10px 20px 10px;
+}
+.main5 .title{
+    position: relative;
+    width: 80%;
+    height: 450px;
+    box-sizing: border-box;
+    margin: 200px auto;
+    z-index: 1;
+}
+.main5 .title img{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.main5 .title .btn{
+    width: 57px;
+    height: 40px;
+    position: absolute;
+    background-color: #BB0504;
+    right: -2%;
+    top: 50%;
+    cursor: pointer;
+}
+.main5 .title .btn .arrow{
+    text-align: center;
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #fff;
+    margin: 10px 25px;
+}
+.main5 .back{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    background-color: #EEEEEE;
+    top: -30%;
+    right: 3%;
+}
+.sec5 .content h4::after{
+    content: '';
+    position: absolute;
+    background: #BB0504;
+    width: 70%;
+    height: 1px;
+    top: 18%;
+    left: 26%;
+}
+.sec5 .content{
+    margin-top: -255px;
 }
