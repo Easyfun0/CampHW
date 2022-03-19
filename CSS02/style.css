@@ -1,0 +1,346 @@
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+.wrap{
+    width: 1200px;
+}
+p{
+    font-size: 18px;
+    line-height: 30px;
+}
+.container{
+    width: 960px;
+    margin: auto;
+}
+.main .head{
+    position: absolute;
+    width: 350px;
+    top: 8%;
+    z-index: 3;
+}
+.main .top{
+    position: relative;
+    background-color: #BB0504;
+    color: #fff;
+    font-size: 52px;
+}
+.main .top span{
+    font-size: 100px;
+}
+.main .head .bottom{
+    color: #fff;
+    background-color: #000;
+    padding: 10px 10px 50px 10px;
+}
+.main .title{
+    position: relative;
+    width: 80%;
+    height: 450px;
+    box-sizing: border-box;
+    margin: 200px auto;
+    z-index: 1;
+}
+.main .title img{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.main .title .btn{
+    width: 57px;
+    height: 40px;
+    position: absolute;
+    background-color: #BB0504;
+    right: -2%;
+    top: 40%;
+    cursor: pointer;
+}
+.main .title .btn .arrow{
+    text-align: center;
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #fff;
+    margin: 10px 25px;
+}
+.main .back{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    background-color: #EEEEEE;
+    top: 80px;
+    right: 19%;
+}
+.content{
+    position: relative;
+    background-color: #EEEEEE;
+    margin-top: -285px;
+    width: 70%;
+    z-index: 2;
+    padding: 5px 20px;
+}
+.content h4{
+    color: #BB0504;
+}
+.content h4::after{
+    content: '';
+    position: absolute;
+    background: #BB0504;
+    width: 70%;
+    height: 1px;
+    top: 12%;
+    left: 26%;
+}
+.content span{
+    color: #fff;
+    background-color: #000;
+    padding: 2px;
+}
+.content ul{
+    margin: 5px;
+    list-style: none;
+}
+.content li::before{
+    content: "•";
+    color: #BB0504;
+    padding-right: 10px;
+}
+
+
+/* section 2 */
+
+.main2{
+    position: relative;
+}
+.main2 .head{
+    position: absolute;
+    width: 350px;
+    right: 0;
+    bottom: 49%;
+    z-index: 3;
+}
+.main2 .top{
+    position: relative;
+    background-color: #BB0504;
+    color: #fff;
+    font-size: 52px;
+    text-align: end;
+}
+.main2 .top span{
+    font-size: 100px;
+}
+.main2 .head .bottom{
+    color: #fff;
+    background-color: #000;
+    padding: 10px 10px 50px 10px;
+}
+.main2 .title{
+    position: relative;
+    width: 80%;
+    height: 450px;
+    box-sizing: border-box;
+    margin: 200px 10px;
+    z-index: 1;
+}
+.main2 .title img{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.main2 .title .btn{
+    width: 57px;
+    height: 40px;
+    position: absolute;
+    background-color: #BB0504;
+    left: -2%;
+    top: 40%;
+    cursor: pointer;
+}
+.main2 .title .btn .arrow{
+    text-align: center;
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #fff;
+    margin: 10px 25px;
+}
+.main2 .back{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    background-color: #EEEEEE;
+    bottom: 50%;
+    right: 19%;
+}
+.sec2 .content h4::after{
+    content: '';
+    position: absolute;
+    background: #BB0504;
+    width: 70%;
+    height: 1px;
+    top: 18%;
+    left: 26%;
+}
+.sec2 .content{
+    margin-left: 250px;
+}
+
+/* section 3 */
+
+.main3{
+    position: relative;
+}
+.main3 .head{
+    position: absolute;
+    width: 350px;
+    left: 0;
+    bottom: 42%;
+    z-index: 3;
+}
+.main3 .top{
+    position: relative;
+    background-color: #BB0504;
+    color: #fff;
+    font-size: 52px;
+}
+.main3 .top span{
+    font-size: 100px;
+}
+.main3 .head .bottom{
+    color: #fff;
+    background-color: #000;
+    padding: 10px 10px 20px 10px;
+}
+.main3 .title{
+    position: relative;
+    width: 80%;
+    height: 450px;
+    box-sizing: border-box;
+    margin: 200px auto;
+    z-index: 1;
+}
+.main3 .title img{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.main3 .title .btn{
+    width: 57px;
+    height: 40px;
+    position: absolute;
+    background-color: #BB0504;
+    right: -2%;
+    top: 40%;
+    cursor: pointer;
+}
+.main3 .title .btn .arrow{
+    text-align: center;
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #fff;
+    margin: 10px 25px;
+}
+.main3 .back{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    background-color: #EEEEEE;
+    top: -30%;
+    right: 3%;
+}
+.sec3 .content h4::after{
+    content: '';
+    position: absolute;
+    background: #BB0504;
+    width: 70%;
+    height: 1px;
+    top: 18%;
+    left: 26%;
+}
+
+/* section 4 */
+
+.main4{
+    position: relative;
+}
+.main4 .head{
+    position: absolute;
+    width: 350px;
+    right: 0;
+    bottom: 41%;
+    z-index: 3;
+}
+.main4 .top{
+    position: relative;
+    background-color: #BB0504;
+    color: #fff;
+    font-size: 52px;
+    text-align: end;
+}
+.main4 .top span{
+    font-size: 100px;
+}
+.main4 .head .bottom{
+    color: #fff;
+    background-color: #000;
+    padding: 10px 10px 20px 10px;
+}
+.main4 .title{
+    position: relative;
+    width: 80%;
+    height: 450px;
+    box-sizing: border-box;
+    margin: 200px 10px;
+    z-index: 1;
+}
+.main4 .title img{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.main4 .title .btn{
+    width: 57px;
+    height: 40px;
+    position: absolute;
+    background-color: #BB0504;
+    left: -2%;
+    top: 40%;
+    cursor: pointer;
+}
+.main4 .title .btn .arrow{
+    text-align: center;
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #fff;
+    margin: 10px 25px;
+}
+.main4 .back{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    background-color: #EEEEEE;
+    bottom: 50%;
+    right: 19%;
+}
+.sec4 .content h4::after{
+    content: '';
+    position: absolute;
+    background: #BB0504;
+    width: 70%;
+    height: 1px;
+    top: 18%;
+    left: 26%;
+}
+.sec4 .content{
+    margin-left: 250px;
+}
