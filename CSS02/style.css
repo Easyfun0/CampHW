@@ -155,7 +155,7 @@ p{
     position: absolute;
     background-color: #BB0504;
     left: -2%;
-    top: 40%;
+    top: 50%;
     cursor: pointer;
 }
 .main2 .title .btn .arrow{
@@ -234,7 +234,7 @@ p{
     position: absolute;
     background-color: #BB0504;
     right: -2%;
-    top: 40%;
+    top: 50%;
     cursor: pointer;
 }
 .main3 .title .btn .arrow{
@@ -274,7 +274,7 @@ p{
     position: absolute;
     width: 350px;
     right: 0;
-    bottom: 41%;
+    bottom: 42%;
     z-index: 3;
 }
 .main4 .top{
@@ -311,7 +311,7 @@ p{
     position: absolute;
     background-color: #BB0504;
     left: -2%;
-    top: 40%;
+    top: 50%;
     cursor: pointer;
 }
 .main4 .title .btn .arrow{
