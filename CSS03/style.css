@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+}
+.col-4{
+    width: 33%;
+}
+.col-5{
+    width: 40%;
+}
+.col-6{
+    width: 50%;
+}
+.col-12{
+    width: 100%;
+}
+.container{
+    /* width: 100%; */
+    max-width: 1400px;
+    margin: auto;
+    gap: 2em;
+}
+[class*="col-"]{
+    /* padding-left: 15px;
+    padding-right: 15px; */
+    box-sizing: border-box;
+    /* color: #fa0; */
+    /* border: 1px solid #ccc; */
+}
+
+
+
+.wrapper{
+    background-color: #F9FAFB;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F9FAFB;
+    margin-bottom: 100px;
+}
+.row{
+    padding: 100px;
+    text-align: start;
+}
+.row .header-box{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.header-box span{
+    background-color: #f00;
+    color: #fff;
+}
+.header-box h1::after{
+    content: '';
+    display: block;
+    position: absolute;
+    border: 1px solid #f00;
+    width: 60px;
+}
+.header-box p{
+    padding-top: 20px;
+    font-size: 24px;
+}
+.top{
+    display: flex;
+}
+.top .circle{
+    width: 160px;
+    height: 160px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.top img{
+    width: 100%;
+}
+.amos{
+    margin-bottom: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 5px #ccc;
+}
+.eddie{
+    margin-bottom: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 5px #ccc;
+}
+.kuro{
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 5px #ccc;
+    background-color: #fff;
+}
+.green{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 5px #ccc;
+}
+.bottom{
+    position: relative;
+    padding: 50px 20px 50px;
+}
+.bottom a{
+    text-decoration: none;
+    color: #f00;
+}
+.bottom p{
+    padding-top: 10px;
+}
+.bottom :nth-child(4){
+    /* padding-top: 20px; */
+    margin-top: 20px;
+}
+.amos .bottom :nth-child(4)::after{
+    content: '';
+    display: block;
+    position: absolute;
+    border: 1px solid #ccc;
+    left: 18%;
+    width: 79%;
+    bottom: 29%;
+}
+.eddie .bottom :nth-child(4)::after{
+    content: '';
+    display: block;
+    position: absolute;
+    border: 1px solid #ccc;
+    right: 3%;
+    width: 78%;
+    bottom: 29%;
+}
+.kuro .bottom :nth-child(4)::after{
+    content: '';
+    display: block;
+    position: absolute;
+    border: 1px solid #ccc;
+    left: 18%;
+    width: 79%;
+    bottom: 29%;
+}
+.green .bottom :nth-child(4)::after{
+    content: '';
+    display: block;
+    position: absolute;
+    border: 1px solid #ccc;
+    right: 3%;
+    width: 79%;
+    bottom: 34%;
+}
+.btn-cli{
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn-cli .btn{
+    width: auto;
+    border-radius: 5%;
+    margin-top: 10px;
+    padding: 5px;
+    color: #f00;
+    border: 2px solid #f00;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.btn-cli .btn:hover{
+    color: #fff;
+    background-color: #f00;
+}
+.amos .bottom::before{
+    content: '';
+    display: block;
+    position: absolute;
+    border: 1px solid #ccc;
+    top: 5%;
+    /* left: 10%; */
+    width: 94%;
+}
+.eddie .bottom::before{
+    content: '';
+    display: block;
+    position: absolute;
+    border: 1px solid #ccc;
+    top: 5%;
+    /* left: 12%; */
+    width: 94%;
+}
+.kuro .bottom::before{
+    content: '';
+    display: block;
+    position: absolute;
+    border: 1px solid #ccc;
+    top: 5%;
+    left: 3%;
+    width: 94%;
+}
+.green .bottom::before{
+    content: '';
+    display: block;
+    position: absolute;
+    border: 1px solid #ccc;
+    top: 5%;
+    right: 3%;
+    width: 94%;
+}
+.top .teacher-name{
+    padding-top: 30px;
+    margin: 25px;
+}
+.teacher-name p{
+    padding-bottom: 25px;
+}
+.amos .teacher-name p::after{
+    content: '';
+    display: block;
+    /* position: absolute; */
+    border:#f00 1px solid;
+    top: 54%;
+    width: 35px;
+}
+.eddie .teacher-name p::after{
+    content: '';
+    background: #f00;
+    display: block;
+    /* position: absolute; */
+    border:#f00 1px solid;
+    top: 54%;
+    width: 35px;
+}
+.kuro .teacher-name p::after{
+    content: '';
+    display: block;
+    /* position: absolute; */
+    border:#f00 1px solid;
+    width: 25px;
+}
+.green .teacher-name p::after{
+    content: '';
+    display: block;
+    position: absolute;
+    border:#f00 1px solid;
+    width: 35px;
+}
+.teacher-name h4{
+    padding-bottom: 10px;
+}
+.teacher-name .icon{
+    padding-top: 15px;
+}
+.icon i{
+    padding-left: 5px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .col-md-6{
+        width: 47.666%;
+    }
+    .amos .bottom :nth-child(4)::after{
+        left: 32%;
+        width: 60%;
+        bottom: 29%;
+    }
+    .eddie .bottom :nth-child(4)::after{
+        left: 32%;
+        width: 60%;
+        bottom: 28%;
+    }
+    .kuro .bottom :nth-child(4)::after{
+        left: 32%;
+        width: 65%;
+        bottom: 33%;
+    }
+    .green .bottom :nth-child(4)::after{
+        left: 32%;
+        width: 60%;
+        bottom: 35%;
+    }
+    
+}
+@media screen and (min-width: 992px) {
+    .col-md-6{
+        width: 48.66%;
+    }
+}
+@media screen and (max-width: 768px){
+    .container{
+        padding: 10px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .row{
+        padding: 5px;
+    }
+    .row .header-box{
+        padding: 0 10px;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+    .header-box h1{
+        font-size: 24px;
+    }
+    .header-box span{
+        background-color: #fff;
+        color: #000;
+    }
+    .top{
+        flex-direction: column;
+        align-items: center;
+    }
+    .top .circle{
+        margin-left: 0;
+    }
+    .amos .teacher-name p::after{
+        top: 31%;
+    }
+    .amos .bottom::before{
+        left: 8%;
+        width: 84%;
+    }
+    .amos .bottom :nth-child(4)::after{
+        left: 32%;
+        width: 60%;
+    }
+    .eddie .teacher-name p::after{
+        top: 135%;
+    }
+    .eddie .bottom::before{
+        left: 8%;
+        width: 84%;
+    }
+    .eddie .bottom :nth-child(4)::after{
+        right: 8%;
+        width: 60%;
+    }
+    .kuro .bottom::before{
+        left: 8%;
+        width: 84%;
+    }
+    .kuro .bottom :nth-child(4)::after{
+        left: 32%;
+        width: 60%;
+        bottom: 33%;
+    }
+    .green .bottom :nth-child(4)::after{
+        right: 8%;
+        width: 60%;
+    }
+    .green .bottom::before{
+        left: 8%;
+        width: 84%;
+    }
+}
