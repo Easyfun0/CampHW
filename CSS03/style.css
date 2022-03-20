@@ -119,7 +119,7 @@
     border: 1px solid #ccc;
     left: 18%;
     width: 79%;
-    bottom: 29%;
+    bottom: 28%;
 }
 .eddie .bottom :nth-child(4)::after{
     content: '';
@@ -137,7 +137,7 @@
     border: 1px solid #ccc;
     left: 18%;
     width: 79%;
-    bottom: 29%;
+    bottom: 28%;
 }
 .green .bottom :nth-child(4)::after{
     content: '';
@@ -256,14 +256,14 @@
     .col-md-6{
         width: 47.666%;
     }
-    .amos .bottom :nth-child(4)::after{
-        left: 32%;
-        width: 60%;
+    /* .amos .bottom :nth-child(4)::after{
+        left: 18%;
+        width: 79%;
         bottom: 29%;
     }
     .eddie .bottom :nth-child(4)::after{
-        left: 32%;
-        width: 60%;
+        left: 18%;
+        width: 79%;
         bottom: 28%;
     }
     .kuro .bottom :nth-child(4)::after{
@@ -275,7 +275,7 @@
         left: 32%;
         width: 60%;
         bottom: 35%;
-    }
+    } */
     
 }
 @media screen and (min-width: 992px) {
@@ -319,7 +319,7 @@
         width: 84%;
     }
     .amos .bottom :nth-child(4)::after{
-        left: 32%;
+        left: 34%;
         width: 60%;
     }
     .eddie .teacher-name p::after{
@@ -330,20 +330,21 @@
         width: 84%;
     }
     .eddie .bottom :nth-child(4)::after{
-        right: 8%;
+        right: 5%;
         width: 60%;
+        bottom: 27%;
     }
     .kuro .bottom::before{
         left: 8%;
         width: 84%;
     }
     .kuro .bottom :nth-child(4)::after{
-        left: 32%;
+        left: 34%;
         width: 60%;
-        bottom: 33%;
+        bottom: 31%;
     }
     .green .bottom :nth-child(4)::after{
-        right: 8%;
+        right: 5%;
         width: 60%;
     }
     .green .bottom::before{
