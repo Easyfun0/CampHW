@@ -3,7 +3,7 @@ const btn = document.querySelector('.btn')
 const ul = document.querySelector(".siteList");
 const openUrl =
     "https://tcgbusfs.blob.core.windows.net/dotapp/youbike/v2/youbike_immediate.json";
-
+// 拿到資料
 
 async function txtInfo() {
     const allData = await fetch(openUrl);
@@ -36,11 +36,4 @@ btn.addEventListener('click', (e) => {
     do {
         ul.removeChild(ul.lastChild);
     } while (ul.lastChild);
-}) 
-
-text.addEventListener("keyup", (e) => {
-    e.preventDefault();
-    if (e.key === 'Enter') {
-        txtInfo;
-    }
-});
+})  
