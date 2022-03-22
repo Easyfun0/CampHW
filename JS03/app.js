@@ -31,10 +31,11 @@ async function txtInfo() {
 
 btn.addEventListener('click', (e) => {
     e.preventDefault()
+
+    txtInfo()
     do {
         ul.removeChild(ul.lastChild);
     } while (ul.lastChild);
-    txtInfo()
 }) 
 
 text.addEventListener("keyup", (e) => {
